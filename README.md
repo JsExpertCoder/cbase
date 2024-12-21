@@ -81,7 +81,7 @@ Reload the file or restart Vim, then you can,
  Press **F1** or run : **StdHeader** to insert your 42 School project header.
 2. Insert the Template:
 
-- Press **CBase** to **insert** the C starter template.
+- Press **F2** to **insert** the C starter template.
 
 - Alternatively, run the command:
 ```vim
