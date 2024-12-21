@@ -44,11 +44,37 @@ Reload the file or restart Vim, then you can,
 
 ### Manual Installation
 
-Copy the **cbase** folder into your Vim runtime path
+1. **Open your terminal:**
 
-```bash
-~/.vim/pack/plugins/start/cbase/
-```
+    Open a terminal window on your system. 
+
+2. **Download the plugin repository:**
+
+    Run the following command in the terminal to download the repository:
+
+    ```bash
+    git clone https://github.com/JsExpertCoder/cbase.git
+    ```
+
+3. **Move the plugin to the Vim runtime path:**
+
+    Copy the `cbase` folder into the `~/.vim/pack/plugins/start/` directory:
+
+    ```bash
+    mv cbase ~/.vim/pack/plugins/start/
+    ```
+
+    For Neovim, use this directory instead:
+
+    ```bash
+    mv cbase ~/.local/share/nvim/site/pack/plugins/start/
+    ```
+
+4. **Restart Vim or Neovim:**
+
+    Close and reopen Vim or Neovim to load the plugin automatically.
+
+
 ## Usage
 
 1. Insert the Header:
